@@ -9,10 +9,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  experimental: {
-    appDir: true,
-  },
+  // swcMinify et appDir sont désormais implicites, donc on les supprime
 };
 
 export default nextConfig;
